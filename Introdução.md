@@ -24,4 +24,4 @@ Foi apresentada apenas uma pequena parcela do enorme leque de aplicações que e
 
 ## Conclusão
 
-Embora seja uma tecnologia não muito utilizada, principalmente por residências de baixo custo, com o avanço tecnológico e por consequência redução dos custos de implementação, não é difícil imaginar certas atividades do dia a dia serem totalmente automatizadas no futuro, isso é uma realidade que já estamos vivenciando. A domótica é uma etapa necessária para a evolução do ser humano e dos lugares que habitam no quesito de sofisticação.
+Embora seja uma tecnologia não muito utilizada, principalmente por residências de baixo custo, com o avanço tecnológico e por consequência redução dos custos de implementação, não é difícil imaginar certas atividades do dia a dia serem totalmente automatizadas no futuro, isso é uma realidade que já estamos vivenciando. A domótica vem se tornando cada vez mais crucial para a evolução das residências, pois com ela é possivel conquistar mais segurança, conforto, praticidade e entretenimento na vida das pessoas.
