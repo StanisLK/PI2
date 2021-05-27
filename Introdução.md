@@ -8,7 +8,7 @@ Isso surgiu pela necessidade do ser humano estar em uma busca incansável por ma
 
 ## Aplicação
 
-As aplicações da domótica são praticamente infinitas, tudo vai depender da imaginação do cliente/projetista. Podemos ter sistemas isolados, sistemas integrados através de um controlador e podemos ter as residências inteligentes onde a complexidade do projeto geralmente é maior e tem uma aplicação mais específica às necessidades ao ocupante da residência.
+As aplicações da domótica são praticamente infinitas, tudo vai depender da imaginação do cliente/projetista. Podemos ter sistemas isolados, sistemas integrados através de um controlador e podemos ter as residências inteligentes onde a complexidade do projeto geralmente é maior e tem uma aplicação mais específica às necessidades do ocupante da residência.
 
 É indispensável ressaltar o uso da domótica por pessoas idosas ou com algum tipo de deficiência motora, pois em alguns casos tarefas simples podem resultar em um grande esforço para o usuário. Assim a automação residencial não apresenta "apenas" soluções de comodidade e segurança, porque ela pode se tornar uma tecnologia indispensável para a realização de certas atividades por essas pessoas.
 
@@ -16,7 +16,7 @@ As aplicações da domótica são praticamente infinitas, tudo vai depender da i
 
 - Alexa, da Amazon, é uma inteligência artificial integrada em um dispositivo acionado por comando de voz, é capaz de controlar outros dispositivos inteligentes através de uma rede Wi-Fi. É um dos dispositivos de automação residencial mais conhecidos atualmente.
 
-- Existem diversos dispositivos de acionamento remoto (dentro ou fora de casa), como iluminação ambiente, controle de temperatura, portas e cortinas automáticas e vários outros.
+- Existem dispositivos de acionamento remoto (dentro ou fora de casa), como iluminação ambiente, controle de temperatura, portas e cortinas automáticas e vários outros.
 
 - Sistemas de segurança: Alarme contra intrusos e incêndios, controle de acesso por reconhecimento facial, câmeras etc...
 
@@ -24,4 +24,4 @@ Foi apresentada apenas uma pequena parcela do enorme leque de aplicações que e
 
 ## Conclusão
 
-Embora seja uma tecnologia não muito utilizada, principalmente por residências de baixo custo, com o avanço tecnológico e por consequência redução de custos de implementação, não é difícil imaginar certas atividades do dia a dia serem totalmente automatizadas no futuro, isso é uma realidade que já estamos vivenciando. A domótica é uma etapa necessária para a evolução do ser humano e dos lugares que habitam no quesito de sofisticação.
+Embora seja uma tecnologia não muito utilizada, principalmente por residências de baixo custo, com o avanço tecnológico e por consequência redução dos custos de implementação, não é difícil imaginar certas atividades do dia a dia serem totalmente automatizadas no futuro, isso é uma realidade que já estamos vivenciando. A domótica é uma etapa necessária para a evolução do ser humano e dos lugares que habitam no quesito de sofisticação.
