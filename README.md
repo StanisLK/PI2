@@ -7,3 +7,5 @@ Onde será realizado um projeto sobre domótica, utilizando a metodologia CDIO.
 Aluno: Stanislau de Lira Kaszubowski
 
 ## [Introdução](https://github.com/StanisLK/PI2/blob/main/Introducao.md)
+
+## [Concepção](https://github.com/StanisLK/PI2/blob/main/Concepcao.md)
