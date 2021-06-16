@@ -5,7 +5,7 @@ Domótica, também conhecida como automação residencial tem como objetivo util
 automatizar diversas atividades domésticas, até mesmo implementar novas funcionalidades (sistemas de segurança por exemplo).
 Isso surgiu pela necessidade do ser humano estar em uma busca incansável por mais segurança, comodidade e eficiência.
 
-<img src="http://www.spectrumapartments.ro/wp-content/uploads/2018/05/cropped-Smart-Home-Connections.jpeg" width="500" height="300" />
+<img src="http://www.spectrumapartments.ro/wp-content/uploads/2018/05/cropped-Smart-Home-Connections.jpeg" width="1000" height="600" />
 
 As aplicações da domótica são praticamente infinitas, tudo vai depender da imaginação do cliente/projetista. Podemos ter sistemas isolados, sistemas integrados através de um controlador e podemos ter as residências inteligentes onde a complexidade do projeto geralmente é maior e tem uma aplicação mais específica às necessidades do ocupante da residência.
 
