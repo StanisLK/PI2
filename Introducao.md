@@ -1,6 +1,5 @@
 # Domótica
 
-## Introdução
 
 Domótica, também conhecida como automação residencial tem como objetivo utilizar diferentes tecnologias para facilitar e/ou 
 automatizar diversas atividades domésticas, até mesmo implementar novas funcionalidades (sistemas de segurança por exemplo).
@@ -8,7 +7,6 @@ Isso surgiu pela necessidade do ser humano estar em uma busca incansável por ma
 
 ![](./imagens/automacao-residencial.jpg)
 
-## Aplicação
 
 As aplicações da domótica são praticamente infinitas, tudo vai depender da imaginação do cliente/projetista. Podemos ter sistemas isolados, sistemas integrados através de um controlador e podemos ter as residências inteligentes onde a complexidade do projeto geralmente é maior e tem uma aplicação mais específica às necessidades do ocupante da residência.
 
@@ -26,6 +24,5 @@ Foi apresentada apenas uma pequena parcela do enorme leque de aplicações que e
 
 ![](./imagens/smart-home-infografico-BRA.jpg)
 
-## Conclusão
 
 Embora seja uma tecnologia não muito utilizada, principalmente por residências de baixo custo, com o avanço tecnológico e por consequência redução dos custos de implementação, não é difícil imaginar certas atividades do dia a dia serem totalmente automatizadas no futuro, isso é uma realidade que já estamos vivenciando. A domótica vem se tornando cada vez mais crucial para a evolução das residências, pois com ela é possivel conquistar mais segurança, conforto, praticidade e entretenimento na vida das pessoas.
