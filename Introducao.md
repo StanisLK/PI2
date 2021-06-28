@@ -27,4 +27,6 @@ Embora seja uma tecnologia não muito utilizada, principalmente por residências
 
 Referências: 
 
-WEG. Blog Tomadas & Interruptores:, 2020. Automação Residencial. Disponível em: https://www.weg.net/tomadas/blog/tecnologia/automacao-residencial-o-que-e-como-funciona-e-quais-as-vantagens/. Acesso em: 01 de jun. de 2021.
+WEG. Blog Tomadas & Interruptores, 2020. Automação Residencial. Disponível em: https://www.weg.net/tomadas/blog/tecnologia/automacao-residencial-o-que-e-como-funciona-e-quais-as-vantagens/. Acesso em: 01 de jun. de 2021.
+
+Henrique Mattede. Mundo da Elétrica. Domótica – O que é e quais as vantagens. Disponível em: https://www.mundodaeletrica.com.br/domotica-o-que-e-quais-as-vantagens/. Acesso em: 01 de jun. de 2021.
