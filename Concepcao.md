@@ -6,8 +6,6 @@ O projeto será desenvolvido em uma maquete de uma residência, que será confec
 
 Após o estudo sobre o tema do projeto, é necessário ter uma ideia da planta baixa da maquete residencial. Utilizando o software Auto CAD 2D, foi projetado uma planta baixa de uma casa simples com 2 quartos, 2 banheiros, 1 sala de estar, 1 cozinha, 3 vagas de garagem e um jardim.
 
-![](./imagens/PlantabaixaPI.JPG)
-
 O projeto possui alguns requisitos que devem ser compridos tal como:
 - Controle de iluminação dos cômodos.
 - Controlar os LEDs de iluminação de forma remota (com o computador).
@@ -24,4 +22,4 @@ O servo motor será aplicado no portão eletrônico da residência, permitindo a
 
 Na imagem a seguir é apresentada a planta baixa, com a localização dos sensores e atuadores utilizados.
 
-![](./imagens/PlantabaixaPIsensor.jpg)
+![](./imagens/PlantabaixaPInova.jpg)
