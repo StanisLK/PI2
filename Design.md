@@ -25,6 +25,7 @@ Utilizado para realizar controle de todos atuadores, receber os sinais dos senso
 #### Sensor de Fumaça MQ2:
 Utilizado para detectar um possivel vazamento de gás na cozinha (e informar para o arduino), possui uma saída digital e outra analógica.
 [Teste funcionamento MQ2](./testes/Teste_MQ2.ino)
+No MQ2 foi ajustado o potenciômetro para quando a sua saída analógica for aproximadamente 300 ou mais, que seja acionada a sua saída digital.
 
 #### Micro Servo SG92:
 Vai ser controlado pelo Arduino por uma modulação de largura de pulso (PWM) para fazer o acionamento do portão de garagem da casa.
@@ -33,6 +34,7 @@ Vai ser controlado pelo Arduino por uma modulação de largura de pulso (PWM) pa
 #### Sensor de Movimento PIR:
 Detecta a presença de algum movimento na entrada de para realizar um acionamento automático das luzes externas, e também informa o arduino sobre o movimento.
 [Teste funcionamento PIR](./testes/Teste_PIR.ino)
+No sensor PIR temos regulagens a serem feitas, para a etapa de teste de funcionamento destes sensores, no PIR, foi girado totalmente no sentido anti horário os potenciômetros de sensibilidade e de tempo
 
 #### LED:
 Utilizado para fazer a iluminação da casa, que pode ser controlada remotamente (através do computador).
