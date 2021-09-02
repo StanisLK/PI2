@@ -1,5 +1,18 @@
+/*
+                 Arduino Uno/Mega
+                 -----------------
+             /|\|                 |
+              | |                 |
+              --| RST             |
+                |                 |        -+
+    LED_1  <--  | 49              |- <- Rx  -  Cabo USB
+    PIR    <--  | 53              |- -> Tx  -
+                |                 |        -+
+                |                 | 
+*/
+
 #define LED_1 49 //define o pino de controle do LED como 49
-#define PIR 53 //define o pino de entrada do pir como 22
+#define PIR 53 //define o pino de entrada do pir como 53
 
 int estado_LED1 = LOW; //Variavel que informa o estado do LED
 
