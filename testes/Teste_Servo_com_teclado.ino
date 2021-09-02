@@ -1,3 +1,16 @@
+/*
+                 Arduino Uno/Mega
+                 -----------------
+             /|\|                 |
+              | |                 |
+              --| RST             |
+                |                 |        -+
+    Servo  <--  | 13              |- <- Rx  -  Cabo USB
+                |                 |- -> Tx  -
+                |                 |        -+
+                |                 | 
+*/
+
 #include <Servo.h> //biblioteca do servo
 
 Servo myservo;  // cria uma variavel de controle pro servo
