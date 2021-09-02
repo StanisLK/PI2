@@ -5,7 +5,7 @@ A maquete eletrônica ira mostrar as ligações de todos os componentes selecion
 
 Tambem será apresentada uma lista de componentes utilizados, e uma breve explicação sobre o funcionamento dos componentes.
 ## Maquete Eletrônica
-![](./imagens/desing%20stanis.jpg)
+![](./imagens/image.png)
 ## Tabela
 
 | Componente | Quantidade |   
