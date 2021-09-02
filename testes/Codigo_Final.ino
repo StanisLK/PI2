@@ -1,3 +1,20 @@
+/*
+ *                  Arduino Uno
+ *               -----------------
+ *           /|\|             A15 | <--- MQ2
+ *            | |                 |
+ *            --| RST             |-
+ *              |                 |        -+
+ *  LED_1  <--- | 49              |- <- Rx  -  Cabo USB
+ *  LED_2  <--- | 47              |- -> Tx  -
+ *  LED_3  <--- | 45              |        -+
+ *  LED_4  <--- | 43           51 | <--- MQ2
+ *  LED_5  <--- | 41           53 | <--- PIR
+ *  LED_6  <--- | 39              |
+ *  Servo  <--- | 13              |
+ *               -----------------
+*/
+
 #include <Servo.h> //biblioteca do servo
 
 #define LED_1 49 //define o pino de controle do LED como 49
