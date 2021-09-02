@@ -1,3 +1,16 @@
+/*
+                 Arduino Uno/Mega
+                 -----------------
+             /|\|                 |
+              | |                 |
+              --| RST             |
+                |                 |        -+
+    LED_1  <--  | 49              |- <- Rx  -  Cabo USB
+                |                 |- -> Tx  -
+                |                 |        -+
+                |                 | 
+*/
+
 #define LED_1 49 //define o pino de controle do LED como 49
 
 int estado_LED1 = LOW; //Variavel que informa o estado do LED
