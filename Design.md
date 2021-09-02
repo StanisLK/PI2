@@ -1,7 +1,9 @@
 # Design
 
+Tendo em vista o que foi apresentado na concepção do projeto, é necessário desenvolver uma maquete de uma casa automatizada, para que seja concluido esse objetivo seguimos para a etapa de design.
+
 Nessa etapa será desenvolvida uma maquete eletrônica, de acordo com as funções prometidas na etapa da concepção. 
-A maquete eletrônica ira mostrar as ligações de todos os componentes selecionados ao Arduino Mega 2560. 
+A maquete eletrônica ira mostrar as ligações de todos os componentes selecionados ao Arduino Mega 2560 e códigos teste para que sejam testados individualmente todos os sensores e atuadores utilizados. 
 
 Tambem será apresentada uma lista de componentes utilizados, e uma breve explicação sobre o funcionamento dos componentes.
 ## Maquete Eletrônica
