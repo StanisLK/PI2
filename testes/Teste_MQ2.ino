@@ -1,6 +1,19 @@
+/*
+                 Arduino Uno/Mega
+                 -----------------
+             /|\|                 |
+              | |                 |
+              --| RST             |
+                |                 |        -+
+    LED_1  <--  | 49              |- <- Rx  -  Cabo USB
+    MQ2    <--  | 51              |- -> Tx  -
+    MQ2    <--  | A15             |        -+
+                |                 | 
+*/
+
 #define LED_1 49 //define o pino de controle do LED como 49
-#define MQD 51 //define o pino de entrada do pir como 22
-#define MQA A15 //define o pino de entrada do pir como 22
+#define MQD 51 //define o pino de entrada digital do MQ2 como 51
+#define MQA A15 //define o pino de entrada analogica do MQ2 como A15
 
 
 int estado_LED1 = LOW; //Variavel que informa o estado do LED
