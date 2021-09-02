@@ -10,7 +10,7 @@ Aluno: Stanislau de Lira Kaszubowski
 
 ## [Concepção](https://github.com/StanisLK/PI2/blob/main/Concepcao.md)
 
-## [Desing](https://github.com/StanisLK/PI2/blob/main/Design.md)
+## [Design](https://github.com/StanisLK/PI2/blob/main/Design.md)
 
 ## [Implementação](https://github.com/StanisLK/PI2/blob/main/Implementacao.md)
 
