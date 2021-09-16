@@ -226,7 +226,13 @@ void menu(){
 ~~~
 
 ## Construção da Maquete
-
+Com o projeto elétrico finalizado, foi realizada a construção da maquete tomando como base a planta baixa apresentada na etapa de concepção. Para a confecção da maquete foi utilizada uma caixa de papelão, palito de dente e durex, materiais bem acessiveis.
 ![](./imagens/Construção%20maquete.jpg)
+
+Com a maquete finalizada foi integrado a parte elétrica nela, foi utilizado uma outra caixa de papelão na parte inferior para armazenar os componentes. 
+
 ![](./imagens/Integração%20elétrica.jpg)
+
+### Maquete Finalizada
+
 ![](./imagens/Maquete%20finalizada.jpg)
