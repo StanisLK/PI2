@@ -14,4 +14,4 @@ Aluno: Stanislau de Lira Kaszubowski
 
 ## [Implementação](https://github.com/StanisLK/PI2/blob/main/Implementacao.md)
 
-
+## [Operação](https://github.com/StanisLK/PI2/blob/main/Operacao.md)
