@@ -1,3 +1,4 @@
+  
 /*
  *                  Arduino Uno
  *               -----------------
@@ -58,14 +59,20 @@ void setup() {
   pinMode(MQD, INPUT);  
   pinMode(MQA, INPUT);
   pinMode(PIR, INPUT);
-  /* Configa o pino 13 como controle do servo */
+  /* Configura o pino 13 como controle do servo e inicia com o portão fechado*/
   myservo.attach(13);
+  myservo.write(pos);
+  /* inicializa o menu ao ligar o sistema */
+  menu();
 }
 
+
 void tarefa_1(){
-  myservo.write(pos);
+ if (Serial.available() != 0){ //Caso for lido algum dado pelo teclado...
+
   tecla = Serial.read(); //lê um char do teclado
   /* Lógica para fazer o switch de um LED, apertando uma tecla*/
+
   if (tecla == '1'){
     if (estado_LED1 == HIGH){
       estado_LED1 = LOW;
@@ -118,35 +125,64 @@ void tarefa_1(){
     else
       pos = 80;
     myservo.write(pos); // Faz o servo ir para a posição desejada
-  }          
+  } 
+  if (tecla == 'm'){
+    menu ();
+  }         
+ }
 }
 
-void tarefa_2(){
-  
+const unsigned long periodo_tarefa_2 = 3000; //define o tempo em milisegundos para ler o MQ2
+unsigned long tempo_tarefa_2 = millis();
+
+void tarefa_2(unsigned long tempo_atual){
+ if(tempo_atual - tempo_tarefa_2 > periodo_tarefa_2) {
+    tempo_tarefa_2 = tempo_atual; 
   int gas = digitalRead(MQD);
   int analog = analogRead(MQA);
-  /* Lógica para fazer o LED acender caso detectado gas e imprimir o valor analogico*/
+  /* Lógica para avisar caso detectado gas/imprimir o valor analogico e abrir o portão*/
   if (gas == LOW){
    Serial.println("Vazamento de gas/fumaca detectado!!!!!! Concentracao:");
    Serial.println(analog);
    Serial.println();
+   pos = 80;
+   myservo.write(pos);
   }
+ }
 }
 
-void tarefa_3(){
-  
+const unsigned long periodo_tarefa_3 = 1000; //define o tempo em milisegundos para ler o PIR
+unsigned long tempo_tarefa_3 = millis();
+
+void tarefa_3(unsigned long tempo_atual){
+if(tempo_atual - tempo_tarefa_3 > periodo_tarefa_3) {
+    tempo_tarefa_3 = tempo_atual;
   int movimento= digitalRead(PIR);
   /* Lógica para fazer o LED acender caso detectado movimento*/
-  if (movimento == HIGH)
+  if (movimento == HIGH){
       estado_LED1 = HIGH;
+      Serial.println("movimento detectado na entrada!");}
   else if (prioridade_LED1 == LOW)
       estado_LED1 = LOW;
   digitalWrite(LED_1, estado_LED1);
+ }
+}
+
+void menu(){
+  Serial.println("Menu:");
+  Serial.println("Tecla '1': Acende/apaga a luz da entrada");
+  Serial.println("Tecla '2': Acende/apaga a luz da sala/cozinha");
+  Serial.println("Tecla '3': Acende/apaga a luz do quarto 1");
+  Serial.println("Tecla '4': Acende/apaga a luz do quarto 2");
+  Serial.println("Tecla '5': Acende/apaga a luz do banheiro 1");
+  Serial.println("Tecla '6': Acende/apaga a luz do banheiro 2");
+  Serial.println("Tecla '7': Abre/fecha o portão eletronico");
+  Serial.println("Tecla 'm': Mostra o menu de funções da casa");
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  unsigned long meu_tempo_atual = millis();
   tarefa_1();
-  tarefa_2();
-  tarefa_3();
+  tarefa_2(meu_tempo_atual);
+  tarefa_3(meu_tempo_atual);
 }
