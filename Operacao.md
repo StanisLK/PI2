@@ -37,4 +37,4 @@ Ficaram algumas sugestões podem ser feitas em projetos posteriores:
 
 A utilização de um buzzer, que poderia ser utilizado para um sistema de alarme contra o vazamento de gás e contra intrusos, tendo em vista os componentes já utilizados.
 
-Comunicação Wireless com o Arduino poderia ser implementada, já que é um ponto muito forte na domótica e deixaria o projeto muito mais funcional.
+Comunicação Wireless do computador, celular ou tablet com o Arduino poderia ser implementada já que é um ponto amplamente utilizado na domótica isso deixaria o projeto mais fácil de ser utilizado por algum usuário e tornaria o projeto mais funcional.
