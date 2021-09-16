@@ -12,9 +12,9 @@ O projeto possui alguns requisitos que devem ser compridos tal como:
 - Utilizar um sensor de presença para o jardim e um sensor de gás.
 - Implementar um servomotor para o portão eletrônico.
 
-Os cômodos da maquete necessitam de um controle de iluminação remoto através do computador, portanto será aplicado um LED em cada dormitório e banheiro, e um LED para a sala e cozinha. Na parte externa da casa também vão ser aplicados LEDs, um na frente da casa, no jardim.
+Os cômodos da maquete necessitam de um controle de iluminação remoto através do computador, portanto será aplicado um LED em cada dormitório e banheiro, e um LED para a sala e cozinha. Na parte externa da casa também vai ser aplicado um LED, na parte frontal.
 
-O sensor de gás será aplicado na cozinha, com o objetivo de detectar qualquer vazamento de gás que possa ocorrer, resultando em uma maior segurança. 
+O sensor de gás será aplicado na cozinha, com o objetivo de detectar qualquer vazamento de gás que possa ocorrer, informando para o computador e acionando o portão eletrônico, para facilitar uma possivel evacuação da residência ou acesso para os bombeiros. 
 
 Temos também um sensor de presença aplicado na região frontal da casa, tendo a função de acionar os LEDs exteriores e comunicar pro computador que foi detectado movimento na parte externa da casa.
 
