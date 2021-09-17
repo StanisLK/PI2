@@ -28,7 +28,8 @@ Tecla 'm': Mostra o menu de funções da casa
 Caso seja detectado algum movimento na parte frontal da casa, a luz externa é acionada e uma mensagem é enviada ao monitor serial para informar sobre o movimento.
 
 Caso seja detectado gás/fumaça o portão eletrônico é aberto e uma mensagem é enviada ao monitor serial para informar sobre o movimento.
-
+## Video com a utilização
+https://www.youtube.com/watch?v=gDG_pcwu0pY&ab_channel=StanislauKaszubowski
 ## Conclusões
 
 Todas as funções funcionaram de acordo com o esperado e a utilização da maquete é de facil entendimento.
